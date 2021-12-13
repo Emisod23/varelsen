@@ -14,9 +14,9 @@ import java.util.ArrayList;
  */
 public class SimulationModel {
     Scene scene;
-    Cell c;
+    Varelsen c;
     public SimulationModel() {
-        c = new Cell(0,0);
+        c = new Varelsen(0,0);
     }
     public void update() {
         c.update();

@@ -10,11 +10,11 @@ import Shapes.Sprite;
  *
  * @author Magnus Silverdal
  */
-public class Cell {
+public class Varelsen {
     private int x;
     private int y;
 
-    public Cell(int x, int y) {
+    public Varelsen(int x, int y) {
         this.x = x;
         this.y = y;
     }
